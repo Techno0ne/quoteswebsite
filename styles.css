@@ -1,0 +1,55 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #b3c7d6; /* Light blue-grayish */
+  }
+  
+  .giphy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .giphy img {
+    width: 900px;
+    height: 600px;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .main-container {
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+  }
+  
+  .quote-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .wisdom-nugget, .deep-thought, .profound-insight, .life-advice {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
